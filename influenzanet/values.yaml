@@ -304,7 +304,7 @@ svcCounter:
   enabled: false
   name: counter
   replicas: 1
-  image: influenzanet/counter-service:v0.1.3
+  image: influenzanet/counter-service:v0.2.1
   imagePullPolicy: IfNotPresent
   containerPort: 5021
   serviceName: counter-service
